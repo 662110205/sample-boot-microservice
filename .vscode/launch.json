@@ -6,6 +6,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpringUserdbApplication1",
+            "request": "launch",
+            "mainClass": "lab.microservice.userdb.SpringUserdbApplication",
+            "projectName": "sample-microservice-userdb",
+            "args": "--server.port=8201"
+        },
+        {
+            "type": "java",
+            "name": "SpringUserdbApplication2",
+            "request": "launch",
+            "mainClass": "lab.microservice.userdb.SpringUserdbApplication",
+            "projectName": "sample-microservice-userdb",
+            "args": "--server.port=8202"
+        },
+        {
+            "type": "java",
             "name": "Launch EurekaNamingServer",
             "request": "launch",
             "mainClass": "lab.microservice.namingserver.SpringBootMicroserviceEurekaNamingServerApplication",
@@ -19,6 +35,5 @@
             "projectName": "sample-microservice-hello",
             "args": "--server.port=8100"
         }
-
     ]
 }
